@@ -181,3 +181,5 @@ if ($Failed -eq 0) {
 Write-Host "`nReboot required for full effect." -ForegroundColor Yellow
 Write-Host "Backup location: $BackupDir" -ForegroundColor Gray
 Write-Host "Restore via: RESTORE.ps1" -ForegroundColor Gray
+Write-Host ""
+Read-Host "Press Enter to exit"
